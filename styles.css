@@ -37,3 +37,9 @@
     background-color: #5d96d4;
     outline: none;
 }
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(100px, 1fr);
+    grid-template-rows: repeat(100px, 1fr);
+}
