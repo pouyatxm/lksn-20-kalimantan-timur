@@ -2,8 +2,8 @@ let ResButton = document.getElementById("restart");
 let start = document.getElementById("start");
 let Lrt = 0;
 let PySpeed = 1
-var PyUpdate = PySpeed
-var PyFood = PySpeed
+let GEnd = 0
+let GBoard = document.getElementById('board')
 
 function GameStart(ct) {
 
@@ -18,16 +18,20 @@ function GameStart(ct) {
     console.log(slcr)
     Lrt = ct;
 
-    GameFUpdate();
+    FUpdate();
     Render()
 } 
 
 window.requestAnimationFrame(GameStart)
 
-let PyPos = [
-    { x:20, y:210 }
-]
-let NSg = 0
+function FUpdate() {
+    UpPy()
+    UpFood()
+    Dcheck()
+}
 
-s
-
+function Render() {
+    GBoard.innerHTML = ''
+    FUpdate(GBoard)
+    Render(GBoard)
+}
