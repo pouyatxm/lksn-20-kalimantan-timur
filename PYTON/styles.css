@@ -71,7 +71,6 @@ body {
 #board {
     background-color: rgb(117, 116, 190);
     display: grid;
-    position: absolute;
     top: 125px;
     left: 185px;
     width: 1000px;
@@ -81,9 +80,9 @@ body {
     border: 3px solid white;
 }
 
-.pyton {
-    background-color: rgb(9, 59, 197);
-    border: .75px solid black;
+.phyton {
+    background-color: hsl(0, 0, 0);
+    border: 1px solid black;
 }
 
 .bait {
