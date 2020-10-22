@@ -31,6 +31,7 @@ function FUpdate() {
 }
 
 function Render() {
+    GBoard.innerHTML=''
     RenPhyton(GBoard)
 }
 
