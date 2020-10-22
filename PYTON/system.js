@@ -4,9 +4,7 @@ import { Update as UpPhyton, Render as RenPhyton, PySpeed,
 let ResButton = document.getElementById("restart");
 let start = document.getElementById("start");
 let Lrt = 0;
-let GEnd = 0
 export let GBoard = document.getElementById('board')
-let NewSegment = 0
 
 function GameStart(ct) {
 

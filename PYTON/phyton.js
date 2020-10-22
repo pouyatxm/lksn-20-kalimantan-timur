@@ -1,5 +1,4 @@
 export let PySpeed = 1
-import { GBoard } from './system.js'
 const PhytonBody = [
     { x: 15, y: 15 },
     { x: 16, y: 16 },
