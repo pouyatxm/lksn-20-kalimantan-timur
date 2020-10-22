@@ -5,7 +5,7 @@ let ResButton = document.getElementById("restart");
 let start = document.getElementById("start");
 let Lrt = 0;
 let GEnd = 0
-let GBoard = document.getElementById('board')
+export let GBoard = document.getElementById('board')
 let NewSegment = 0
 
 function GameStart(ct) {

@@ -1,18 +1,19 @@
 export let PySpeed = 1
+import { GBoard } from './system.js'
 const PhytonBody = [
-    { x:21, y:21}
+    { x: 15, y: 24 }
 ]
 
 export function Update () {
     
 }
 
-export function Render (GBoard) {
+export function Render (board) {
     PhytonBody.forEach(Sg => {
         var PhytonElement = document.createElement('div')
         PhytonElement.style.gridRowStart = Sg.y
         PhytonElement.style.gridColumnStart = Sg.x
         PhytonElement.classList.add('phyton')
-        GBoard.appenChild(PhytonElement)
+        GBoard.appendChild(PhytonElement)
     })
 }
