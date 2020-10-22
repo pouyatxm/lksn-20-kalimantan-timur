@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(30, 0, 138);
+}
+
 .logo_font {
     font-weight: bold;
     text-align: center;
@@ -22,7 +26,19 @@
     height: 75px;
     position: absolute;
     bottom: 10px;
-    left: 575px;
+    left: 800px;
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    outline: none;
+}
+
+.start {
+    width: 250px;
+    height: 75px;
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
     cursor: pointer;
     background-color: gray;
     border: none;
@@ -38,8 +54,30 @@
     outline: none;
 }
 
+.start:hover {
+    background-color: #0ea83c;
+    outline: none;
+}
+
 #board {
+    background-color: gray;
     display: grid;
-    grid-template-columns: repeat(100px, 1fr);
-    grid-template-rows: repeat(100px, 1fr);
+    position: absolute;
+    top: 125px;
+    left: 185px;
+    width: 1000px;
+    height: 475px;
+    grid-template-columns: repeat(48, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    border: 3px solid white;
+}
+
+.pyton {
+    background-color: rgb(9, 59, 197);
+    border: .75px solid black;
+}
+
+.bait {
+    background-color: rgb(206, 209, 0);
+    border: .75px solid black;
 }
