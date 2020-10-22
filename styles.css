@@ -1,0 +1,39 @@
+.logo_font {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    font-family: Agency FB;
+    font-size: 50px;
+    color: rgb(127, 128, 196);
+    left: 700px;
+    position: absolute;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -25px;
+    left: -100px;
+}
+
+#restart {
+    width: 250px;
+    height: 75px;
+    position: absolute;
+    bottom: 10px;
+    left: 575px;
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    outline: none;
+}
+
+.bActive {
+    background-color: #0069d9;
+}
+
+#restart:hover {
+    background-color: #5d96d4;
+    outline: none;
+}
